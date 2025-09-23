@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
       role: "SENIOR MANAGER",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      text: "These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by commercial laundry facilities hotels",
+      text: "Their counters are built to last and look great in our shop. We've trusted Chaturbhuj Laxmi Refrigeration since 2015 for all our stainless steel and display counter needs — quality and service are always top-notch.",
       rating: 5,
     },
     {
@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
       role: "OWNER",
       image:
         "https://images.unsplash.com/photo-1494790108755-2616b612b77c?w=150&h=150&fit=crop&crop=face",
-      text: "These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by commercial laundry facilities hotels",
+      text: "Their counters are built to last and look great in our shop. We've trusted Chaturbhuj Laxmi Refrigeration since 2015 for all our stainless steel and display counter needs — quality and service are always top-notch.",
       rating: 5,
     },
     {
@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
       role: "FASHION DESIGNER",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      text: "These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by commercial laundry facilities hotels",
+      text: "We've been using their display and stainless steel counters for years. The quality is excellent, and their team is always professional. Highly recommended for any commercial setup!",
       rating: 5,
     },
     {
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
       role: "BUSINESS OWNER",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-      text: "These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by commercial laundry facilities hotels",
+      text: "Chaturbhuj Laxmi Refrigeration delivered exactly what we needed — durable, stylish counters that enhance our shop’s look. Great workmanship and reliable service.",
       rating: 5,
     },
     {
@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
       role: "HOTEL MANAGER",
       image:
         "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      text: "These services involve cleaning and washing textiles, such as clothing, linens, and towels. Laundering services can be provided by commercial laundry facilities hotels",
+      text: "Since 2015, they’ve been our go-to for custom fabrication. Their stainless steel counters and cash desks are built with precision and last for years.",
       rating: 5,
     },
     {

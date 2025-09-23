@@ -258,7 +258,7 @@ function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-orange-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
+                className="bg-gray-700 hover:bg-red-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
                 aria-label="Follow us on Facebook"
               >
                 <Facebook className="w-5 h-5" />
@@ -267,7 +267,7 @@ function Footer() {
                 href="https://plus.google.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-orange-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
+                className="bg-gray-700 hover:bg-red-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
                 aria-label="Follow us on Google Plus"
               >
                 <Plus className="w-5 h-5" />
@@ -276,7 +276,7 @@ function Footer() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-orange-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
+                className="bg-gray-700 hover:bg-red-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
                 aria-label="Follow us on LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
@@ -285,7 +285,7 @@ function Footer() {
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gray-700 hover:bg-orange-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
+                className="bg-gray-700 hover:bg-red-500 text-gray-400 hover:text-white p-3 rounded-full transition-all duration-200 transform hover:scale-110"
                 aria-label="Follow us on YouTube"
               >
                 <Youtube className="w-5 h-5" />

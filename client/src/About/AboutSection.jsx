@@ -121,7 +121,7 @@ const AboutSection = () => {
             {/* Read More Button */}
             <motion.div variants={itemVariants}>
               <motion.button
-                className="group bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded-none transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
+                className="group bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded cursor-pointer transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ChevronRight, MessageCircle, Phone } from "lucide-react";
 import SliderImage9 from "../../assets/SliderImages/SliderImage9.jpeg";
 import HeroImage3 from "../../assets/HeroImages/HeroImage3.jpeg";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ServicesSection = () => {
   const services = [
@@ -112,12 +113,29 @@ const ServicesSection = () => {
         </motion.button>
       </div> */}
 
+      {/* Whatsapp Button */}
+      <div className="fixed bottom-6 left-0 z-50">
+        <button
+          onClick={() =>
+            window.open(
+              "https://wa.me/917989198151?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+              "_blank"
+            )
+          }
+          className="bg-green-600 hover:bg-green-700 cursor-pointer text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
+          aria-label="Need Help?"
+        >
+          <FaWhatsapp size={24} />
+        </button>
+      </div>
+
       {/* Phone Button */}
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-0 z-50">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-red-500 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-colors duration-200"
+          className="bg-red-500 hover:bg-red-600 text-white p-4 cursor-pointer rounded-full shadow-lg transition-colors duration-200"
+          onClick={() => (window.location.href = "tel:7989198151")}
         >
           <Phone size={24} />
         </motion.button>

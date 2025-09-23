@@ -255,13 +255,13 @@ const Hero = () => {
       </a> */}
 
       {/* Call Button */}
-      <a
+      {/* <a
         href="tel:+91xxxxxxxxxx"
         className="fixed bottom-6 right-6 z-30 bg-red-500 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
         aria-label="Call us"
       >
         <Phone size={24} />
-      </a>
+      </a> */}
 
       {/* SEO Content (Hidden but accessible to search engines) */}
       <div className="sr-only">

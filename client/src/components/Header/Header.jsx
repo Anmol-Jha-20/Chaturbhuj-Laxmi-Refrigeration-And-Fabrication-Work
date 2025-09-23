@@ -279,7 +279,7 @@ const Header = () => {
               </button> */}
 
               <button
-                onClick={() => (window.location.href = "tel:918075612353")}
+                onClick={() => (window.location.href = "tel:7989198151")}
                 className="bg-red-500 hover:bg-red-600 text-white cursor-pointer px-6 py-2 rounded-md font-medium transition-colors hidden sm:block"
               >
                 Get Consultation
