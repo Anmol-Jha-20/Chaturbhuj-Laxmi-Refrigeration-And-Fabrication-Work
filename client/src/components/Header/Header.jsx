@@ -171,13 +171,13 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
               <a
-                href="#"
+                href="/"
                 className="text-gray-700 hover:text-red-500 font-medium py-2 transition-colors duration-200"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="/about-us"
                 className="text-gray-700 hover:text-red-500 font-medium py-2 transition-colors duration-200"
               >
                 About Us
@@ -253,13 +253,13 @@ const Header = () => {
                 Blog
               </a>
               <a
-                href="#"
+                href="/gallery"
                 className="text-gray-700 hover:text-red-500 font-medium py-2 transition-colors duration-200"
               >
                 Gallery
               </a>
               <a
-                href="#"
+                href="/contact"
                 className="text-gray-700 hover:text-red-500 font-medium py-2 transition-colors duration-200"
               >
                 Contact
@@ -305,13 +305,13 @@ const Header = () => {
           <div className="lg:hidden bg-white ">
             <div className="px-4 py-2 space-y-1">
               <a
-                href="#"
+                href="/"
                 className="block px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-red-600 rounded-md font-medium transition-colors duration-200"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="/about-us"
                 className="block px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-red-600 rounded-md font-medium transition-colors duration-200"
               >
                 About Us
@@ -386,13 +386,13 @@ const Header = () => {
                 Blog
               </a>
               <a
-                href="#"
+                href="/gallery"
                 className="block px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-orange-600 rounded-md font-medium transition-colors duration-200"
               >
                 Gallery
               </a>
               <a
-                href="#"
+                href="/contact"
                 className="block px-3 py-2 text-gray-700 hover:bg-gray-50 hover:text-orange-600 rounded-md font-medium transition-colors duration-200"
               >
                 Contact
