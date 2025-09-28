@@ -12,6 +12,7 @@ import {
   Plus,
 } from "lucide-react";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ const Header = () => {
   const [mobileActiveMenu, setMobileActiveMenu] = useState(null);
   const [mobileActiveSubmenu, setMobileActiveSubmenu] = useState(null);
   const timeoutRef = useRef(null);
+  const navigate = useNavigate();
 
   const menuItems = {
     // Pages: {
@@ -41,30 +43,37 @@ const Header = () => {
         {
           name: "Display Counter",
           subitems: [],
+          link: "/display-counter",
         },
         {
           name: "Stainless Steel Bhatti",
           subitems: [],
+          link: "/stainless-steel-bhatti",
         },
         {
           name: "Stainless Steel Counter",
           subitems: [],
+          link: "/stainless-steel-counter",
         },
         {
           name: "Fast Food Stall",
           subitems: [],
+          link: "/fast-food-stall",
         },
         {
           name: "Stainless Steel Table",
           subitems: [],
+          link: "/stainless-steel-table",
         },
         {
           name: "Cash Desk Counter",
           subitems: [],
+          link: "Cash Desk Counter",
         },
         {
           name: "Commercial Gas Stove",
           subitems: [],
+          link: "Commercial Gas Stove",
         },
       ],
     },
@@ -205,7 +214,10 @@ const Header = () => {
                               className="relative"
                               onMouseEnter={() => handleSubmenuEnter(item.name)}
                             >
-                              <button className="w-full text-left px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-red-600 transition-colors duration-200 flex items-center justify-between">
+                              <button
+                                onClick={() => navigate(item.link)}
+                                className="w-full text-left px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-red-600 transition-colors duration-200 flex items-center justify-between"
+                              >
                                 <span>{item.name}</span>
                                 {/* <ChevronDown className="w-4 h-4 rotate-270" /> */}
                               </button>

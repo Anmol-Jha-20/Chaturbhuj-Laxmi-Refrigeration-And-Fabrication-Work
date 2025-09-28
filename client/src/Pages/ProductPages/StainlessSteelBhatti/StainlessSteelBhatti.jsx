@@ -1,11 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
-import HeroImage5 from "../../assets/HeroImages/HeroImage5.jpeg";
-import SliderImage9 from "../../assets/SliderImages/SliderImage9.jpeg";
-import DisplayCounterProducts from "./DisplayCounterProducts/DisplayCounterProducts";
+import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
+import SteelBhattiProducts from "./SteelBhattiProduct";
 
-const DisplayCounterProductPage = () => {
+const SteelBhattiProductPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef(null);
 
@@ -45,7 +44,7 @@ const DisplayCounterProductPage = () => {
             </div>
             <ChevronRight className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">
-              Display Counter
+              Stainless Steel Bhatti
             </span>
           </nav>
 
@@ -53,7 +52,7 @@ const DisplayCounterProductPage = () => {
             className="text-5xl md:text-7xl font-bold mb-6 animate-on-scroll"
             style={{ animationDelay: "0.2s" }}
           >
-            Display Counter
+            Stainless Steel Bhatti
           </h1>
         </div>
       </section>
@@ -81,26 +80,28 @@ const DisplayCounterProductPage = () => {
               </motion.div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Display Counters Built to Perform
+                Stainless Steel Bhattis Built for Performance
               </h1>
 
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
                 <span className="block font-semibold text-red-400">
-                  Stylish. Durable. Made for Business.
+                  Reliable. Durable. Made for Professional Kitchens.
                 </span>
               </p>
 
               <p className="text-lg mb-8 leading-relaxed text-gray-600">
-                We offer a premium range of display counters, expertly designed
-                for maximum functionality, durability, and visual appeal. From
-                hot samosa counters to curved sweet display counters, bakery
-                units, stainless steel tea displays, and fast food serving
-                counters — each unit is crafted with high-quality materials to
-                suit commercial needs. Ideal for restaurants, sweet shops,
-                bakeries, and food courts, our counters ensure efficient service
-                and lasting performance. Trusted since 2015, we deliver quality
-                products with timely service — built to elevate your business
-                space.
+                Explore our premium range of stainless steel bhattis, expertly
+                engineered for commercial kitchens that demand durability,
+                efficiency, and performance. Our collection includes Stainless
+                Steel Gas Bhatti Counters, Stainless Steel Tandoor Bhattis, Dosa
+                Gas Bhattis, and traditional Stainless Steel Tandoors — all
+                crafted with high-grade materials to withstand high-heat cooking
+                and heavy-duty use. Ideal for restaurants, dhabas, catering
+                setups, and food courts, our bhattis ensure consistent heat
+                distribution, easy maintenance, and long-lasting operation.
+                Trusted by professionals since 2015, we’re committed to
+                delivering top-quality kitchen solutions on time, every time —
+                built to power your cooking with confidence.
               </p>
 
               <motion.div
@@ -127,9 +128,9 @@ const DisplayCounterProductPage = () => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src={
-                    "https://5.imimg.com/data5/SELLER/Default/2024/5/420422242/SF/KY/JR/73020702/110-500x500.jpg"
+                    "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg"
                   }
-                  alt="Tree Guard Construction"
+                  alt="Stainless Steel Bhatti"
                   className="w-full h-96 lg:h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -144,21 +145,20 @@ const DisplayCounterProductPage = () => {
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-red-600">Display Counter</span>
+              Our <span className="text-red-600">Stainless Steel Bhatti</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Providing you the best range of Hot Samosa Counter, Long Curved
-              Sweet Display Counter, Bakery Display Counter, Center Round Glass
-              Sweet Display Counter, Stainless Steel Tea Display Counter and
-              Fast Food Serving Counter with effective & timely delivery.
+              Offering you a complete choice of products which include Stainless
+              Steel Gas Bhatti Counter, Stainless Steel Tandoor Bhatti,
+              Stainless Steel Dosa Gas Bhatti and Stainless Steel Tandoor.
             </p>
           </motion.div>
         </div>
 
-        <DisplayCounterProducts />
+        <SteelBhattiProducts />
       </section>
     </div>
   );
 };
 
-export default DisplayCounterProductPage;
+export default SteelBhattiProductPage;

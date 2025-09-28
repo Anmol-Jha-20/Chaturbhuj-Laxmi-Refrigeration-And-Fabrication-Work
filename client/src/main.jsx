@@ -8,6 +8,8 @@ import AboutPage from "./Pages/AboutPage.jsx";
 import Gallery from "./Pages/Gallery.jsx";
 import ContactPage from "./Pages/ContactPage.jsx";
 import DisplayCounterProductPage from "./Pages/ProductPages/DisplayCounter.jsx";
+import SteelBhattiProductPage from "./Pages/ProductPages/StainlessSteelBhatti/StainlessSteelBhatti.jsx";
+import StainlessSteelCounter from "./Pages/ProductPages/StainlessSteelCounter/StainlessSteelCounter.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: "/display-counter",
         element: <DisplayCounterProductPage />,
+      },
+      {
+        path: "/stainless-steel-bhatti",
+        element: <SteelBhattiProductPage />,
+      },
+      {
+        path: "/stainless-steel-counter",
+        element: <StainlessSteelCounter />,
       },
     ],
   },
