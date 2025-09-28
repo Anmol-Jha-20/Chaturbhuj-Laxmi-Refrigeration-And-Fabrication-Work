@@ -16,6 +16,8 @@ import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
 import GalleryImage15 from "../../../assets/Gallery/Gallery15.jpeg";
 import GalleryImage6 from "../../../assets/Gallery/Gallery6.jpeg";
 import GalleryImage5 from "../../../assets/Gallery/Gallery5.jpeg";
+import SliderImage1 from "../../../assets/SliderImages/SliderImage1.jpeg";
+import SliderImage5 from "../../../assets/SliderImages/SliderImage5.jpeg";
 
 const DisplayCounterProducts = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,12 +32,7 @@ const DisplayCounterProducts = () => {
     {
       id: 1,
       name: "Hot Samosa Counter",
-      images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420422242/SF/KY/JR/73020702/110-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420422242/SF/KY/JR/73020702/110-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420422242/SF/KY/JR/73020702/110-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420422242/SF/KY/JR/73020702/110-500x500.jpg",
-      ],
+      images: [SliderImage1, SliderImage1, SliderImage1, SliderImage1],
       description:
         "Serve up crispy, golden samosas straight from the fryer at our Hot Samosa Counter – a crowd favorite at any event! Freshly prepared and served piping hot, these savory snacks are stuffed with a delicious spiced filling and paired with tangy chutneys for the perfect bite. Whether for weddings, corporate functions, fairs, or street food festivals, our samosa counter adds a touch of traditional flavor with modern convenience.",
       features: [
@@ -50,12 +47,7 @@ const DisplayCounterProducts = () => {
     {
       id: 2,
       name: "Long Curved Sweet Display Counter",
-      images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703680/MI/OY/RV/73020702/long-curved-sweet-display-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703680/MI/OY/RV/73020702/long-curved-sweet-display-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703680/MI/OY/RV/73020702/long-curved-sweet-display-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703680/MI/OY/RV/73020702/long-curved-sweet-display-counter-500x500.jpg",
-      ],
+      images: [SliderImage5, SliderImage5, SliderImage5, SliderImage5],
       description:
         "Showcase your sweets in style with this elegant long curved display counter, designed for maximum visibility and freshness. Made with durable stainless steel and 12mm toughened glass, it features 3 spacious shelves and a sleek 4-foot-high curved design, perfect for sweet shops and bakeries.",
       features: [

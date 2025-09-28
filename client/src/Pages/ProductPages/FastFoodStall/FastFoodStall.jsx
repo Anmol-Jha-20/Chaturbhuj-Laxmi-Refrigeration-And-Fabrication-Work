@@ -3,8 +3,9 @@ import { motion } from "framer-motion";
 import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
 import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
 import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
+import FastFoodStallProducts from "./FastFoodStallProduct.jsx";
 
-const StainlessSteelCounter = () => {
+const FastFoodStallPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef(null);
 
@@ -151,10 +152,10 @@ const StainlessSteelCounter = () => {
           </motion.div>
         </div>
 
-        {/* <SteelCounterProducts /> */}
+        {/* <FastFoodStallProducts /> */}
       </section>
     </div>
   );
 };
 
-export default StainlessSteelCounter;
+export default FastFoodStallPage;

@@ -68,12 +68,12 @@ const Header = () => {
         {
           name: "Cash Desk Counter",
           subitems: [],
-          link: "Cash Desk Counter",
+          link: "/cash-desk-counter",
         },
         {
           name: "Commercial Gas Stove",
           subitems: [],
-          link: "Commercial Gas Stove",
+          link: "/commercial-gas-stove",
         },
       ],
     },
@@ -142,7 +142,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <Clock className="w-4 h-4 text-red-500" />
-              <span>Mon-Fri : 9:00AM - 5PM</span>
+              <span>Mon-Sun : 9:00AM - 6PM</span>
             </div>
             <div className="flex space-x-2">
               <Facebook className="w-4 h-4 hover:text-blue-500 cursor-pointer" />
@@ -349,9 +349,11 @@ const Header = () => {
                         ? menuItems[menu].items.map((item, index) => (
                             <div key={index}>
                               <button
-                                onClick={() =>
-                                  handleMobileSubmenuClick(item.name)
-                                }
+                                onClick={() => {
+                                  handleMobileSubmenuClick(item.name);
+                                  setIsMobileMenuOpen(false);
+                                  navigate(item.link);
+                                }}
                                 className="w-full flex items-center justify-between px-3 py-2 text-left text-gray-600 hover:bg-gray-50 rounded-md text-sm transition-colors duration-200"
                               >
                                 <span>{item.name}</span>
