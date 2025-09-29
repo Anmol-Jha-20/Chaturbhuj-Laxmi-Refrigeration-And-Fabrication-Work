@@ -75,6 +75,16 @@ const Header = () => {
           subitems: [],
           link: "/commercial-gas-stove",
         },
+        {
+          name: "Juice Counter",
+          subitems: [],
+          link: "/juice-counter",
+        },
+        {
+          name: "Tandoori Counter",
+          subitems: [],
+          link: "/tandoori-counter",
+        },
       ],
     },
   };

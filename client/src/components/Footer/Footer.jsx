@@ -96,7 +96,7 @@ function Footer() {
                 <ul className="space-y-4">
                   <li>
                     <a
-                      href="/services/fabric-printing"
+                      href="/display-counter"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -107,7 +107,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/services/design-fabric"
+                      href="/stainless-steel-bhatti"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -118,7 +118,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/services/stich-fabric"
+                      href="/stainless-steel-counter"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -129,7 +129,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/services/engineering"
+                      href="/fast-food-stall"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -140,7 +140,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/services/engineering"
+                      href="/stainless-steel-table"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -160,7 +160,7 @@ function Footer() {
                 <ul className="space-y-4">
                   <li>
                     <a
-                      href="/about"
+                      href="/about-us"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -171,7 +171,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/services"
+                      href="/display-counter"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -182,7 +182,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/team"
+                      href="/"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">
@@ -193,7 +193,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="/gallery"
                       className="text-gray-400 hover:text-red-500 transition-colors duration-200 flex items-center group"
                     >
                       <span className="text-red-500 mr-3 group-hover:mr-4 transition-all duration-200">

@@ -202,7 +202,10 @@ const Hero = () => {
               <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-gray-200 leading-relaxed">
                 {slide.description}
               </p>
-              <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+              <button
+                onClick={() => (window.location.href = "tel:7989198151")}
+                className="bg-red-500 hover:bg-red-600 text-white cursor-pointer font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+              >
                 {slide.ctaText}
               </button>
             </div>
@@ -241,43 +244,6 @@ const Hero = () => {
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
-      </div>
-
-      {/* WhatsApp Float Button */}
-      {/* <a
-        href="https://wa.me/your-number"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed top-6 right-6 z-30 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
-        aria-label="Contact us on WhatsApp"
-      >
-        <MessageCircle size={24} />
-      </a> */}
-
-      {/* Call Button */}
-      {/* <a
-        href="tel:+91xxxxxxxxxx"
-        className="fixed bottom-6 right-6 z-30 bg-red-500 hover:bg-red-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
-        aria-label="Call us"
-      >
-        <Phone size={24} />
-      </a> */}
-
-      {/* SEO Content (Hidden but accessible to search engines) */}
-      <div className="sr-only">
-        <h1>Interior Design Services - Beautiful Home Interiors</h1>
-        <p>
-          Professional interior design services for modern homes. We specialize
-          in luxury kitchen designs, premium living spaces, and complete home
-          transformations. Book a free consultation today to transform your
-          space with our expert design team.
-        </p>
-        <ul>
-          <li>Modern Kitchen Design</li>
-          <li>Luxury Living Room Interior</li>
-          <li>Complete Home Interior Solutions</li>
-          <li>Free Design Consultation</li>
-        </ul>
       </div>
     </div>
   );

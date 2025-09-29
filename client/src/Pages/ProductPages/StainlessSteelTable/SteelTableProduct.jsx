@@ -14,15 +14,15 @@ const SteelTableProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Stainless Steel Gas Bhatti Counter",
+      name: "Stainless Steel Round Table",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705871/XH/QD/FV/73020702/stainless-steel-round-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705871/XH/QD/FV/73020702/stainless-steel-round-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705871/XH/QD/FV/73020702/stainless-steel-round-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705871/XH/QD/FV/73020702/stainless-steel-round-table-500x500.jpg",
       ],
       description:
-        "Built for high-performance commercial use, our Stainless Steel Gas Bhatti Counter is designed to deliver reliable heat output and long-lasting durability. Constructed from premium stainless steel, this unit is ideal for busy kitchens, food stalls, catering setups, and restaurants.",
+        "Built for style, strength, and hygiene, our Stainless Steel Round Table is an ideal choice for restaurants, cafes, food courts, and commercial dining spaces. Crafted from high-grade stainless steel with a mirror finish, this table offers a modern look while ensuring long-lasting durability and easy maintenance.",
       features: [
         "2-Color Printing",
         "High Speed Operation",
@@ -34,15 +34,15 @@ const SteelTableProducts = () => {
     },
     {
       id: 2,
-      name: "Stainless Steel Tandoor Bhatti",
+      name: "Kitchen Working Table",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420685001/YF/DJ/VK/73020702/kitchen-working-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420685001/YF/DJ/VK/73020702/kitchen-working-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420685001/YF/DJ/VK/73020702/kitchen-working-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420685001/YF/DJ/VK/73020702/kitchen-working-table-500x500.png",
       ],
       description:
-        "Designed for professional kitchens, restaurants, and catering setups, our Stainless Steel Tandoor Bhatti delivers authentic tandoori cooking with the efficiency of gas operation. It features a standard clay inner tandoor, allowing for traditional flavor while offering modern convenience and durability.",
+        "These are the all-rounders, often used for a variety of tasks. Prep Tables: Specifically designed for food preparation, often featuring added amenities like cutting boards. Equipment Stands: Sturdier and usually lower in height, perfect for holding heavy kitchen equipment.",
       features: [
         "2-Color Configuration",
         "Advanced Automation",
@@ -54,15 +54,15 @@ const SteelTableProducts = () => {
     },
     {
       id: 3,
-      name: "Stainless Steel Dosa Gas Bhatti",
+      name: "Stainless Steel Dining Table",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420627457/II/OU/JX/73020702/stainless-steel-dining-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420627457/II/OU/JX/73020702/stainless-steel-dining-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420627457/II/OU/JX/73020702/stainless-steel-dining-table-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420627457/II/OU/JX/73020702/stainless-steel-dining-table-500x500.jpg",
       ],
       description:
-        "Engineered for high-performance in commercial kitchens, our Stainless Steel Dosa Gas Bhatti is designed to deliver consistent heat across a wide surface — perfect for making crisp, evenly cooked dosas, uttapams, and other South Indian delicacies. Its heavy-duty stainless steel body ensures long-lasting use and easy cleaning, ideal for restaurants, hotels, and street food vendors.",
+        "Enhance the efficiency of your commercial kitchen with the Stainless Steel Work Table. This durable and versatile table provides a sturdy surface for food preparation, ensuring a hygienic and organized workspace. Its stainless steel construction guarantees longevity and easy cleaning.",
       features: [
         "2-Color Configuration",
         "Advanced Automation",
@@ -74,15 +74,35 @@ const SteelTableProducts = () => {
     },
     {
       id: 4,
-      name: "Stainless Steel Tandoor",
+      name: "Stainless Steel Table",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
       ],
       description:
-        "Crafted for authentic tandoori cooking in a modern commercial kitchen, our Stainless Steel Tandoor combines the rich cooking tradition of clay with the durability and hygiene of stainless steel. Built to handle high temperatures and heavy daily use, this gas-powered tandoor is perfect for preparing naan, roti, kebabs, and tandoori dishes with consistent results.",
+        "Enhance the efficiency of your commercial kitchen with the Stainless Steel Work Table. This durable and versatile table provides a sturdy surface for food preparation, ensuring a hygienic and organized workspace. Its stainless steel construction guarantees longevity and easy cleaning.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 5,
+      name: "Chinese Fast Food Cart",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+      ],
+      description:
+        "Designed specifically for high-traffic street food environments, our Chinese Fast Food Cart combines durability, functionality, and convenience in a compact stainless steel setup. With a rectangular counter shape, three spacious shelves, and a height of 6 feet, this cart offers ample storage and working space — ideal for preparing and serving Chinese fast food like noodles, fried rice, and momos.",
       features: [
         "2-Color Configuration",
         "Advanced Automation",
@@ -252,7 +272,7 @@ const SteelTableProducts = () => {
                       )} */}
                     </div>
                     <button
-                      onClick={() => (window.location.href = "tel:8051448069")}
+                      onClick={() => (window.location.href = "tel:7989198151")}
                       className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-700 hover:to-red-800 cursor-pointer text-white px-2 md:px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       Contact Us

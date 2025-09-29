@@ -4,8 +4,11 @@ import { ChevronRight, MessageCircle, Phone } from "lucide-react";
 import SliderImage9 from "../../assets/SliderImages/SliderImage9.jpeg";
 import HeroImage3 from "../../assets/HeroImages/HeroImage3.jpeg";
 import { FaWhatsapp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const ServicesSection = () => {
+  const navigate = useNavigate();
+
   const services = [
     {
       id: 1,
@@ -13,6 +16,7 @@ const ServicesSection = () => {
       description:
         "Providing you the best range of Hot Samosa Counter, Long Curved Sweet Display Counter, Bakery Display Counter, Center Round Glass Sweet Display Counter, Stainless Steel Tea Display Counter and Fast Food Serving Counter with effective & timely delivery.",
       image: SliderImage9,
+      link: "/display-counter",
     },
     {
       id: 2,
@@ -21,6 +25,7 @@ const ServicesSection = () => {
         "Offering you a complete choice of products which include Stainless Steel Gas Bhatti Counter, Stainless Steel Tandoor Bhatti, Stainless Steel Dosa Gas Bhatti and Stainless Steel Tandoor.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
+      link: "/stainless-steel-bhatti",
     },
     {
       id: 3,
@@ -28,6 +33,7 @@ const ServicesSection = () => {
       description:
         "Offering you a complete choice of products which include Fast Food Cart and Tea Stall Counter.",
       image: HeroImage3,
+      link: "/stainless-steel-counter",
     },
     {
       id: 4,
@@ -36,6 +42,7 @@ const ServicesSection = () => {
         "Manufacturer of a wide range of products which include Chinese Fast Food Stall.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/5/420706642/ZQ/KZ/EJ/73020702/chinese-fast-food-stall-500x500.jpg",
+      link: "/fast-food-stall",
     },
     {
       id: 5,
@@ -44,6 +51,7 @@ const ServicesSection = () => {
         "Leading Manufacturer of Stainless Steel Round Table, Kitchen Working Table, Stainless Steel Dining Table, Stainless Steel Table and Chinese Fast Food Cart from Muzaffarpur.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png",
+      link: "/stainless-steel-table",
     },
     {
       id: 6,
@@ -52,6 +60,7 @@ const ServicesSection = () => {
         "Providing you the best range of Restaurant Cash Counter and Korean Cash Counter Desk with effective & timely delivery.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/5/420622910/QQ/OV/YP/73020702/korean-cash-counter-desk-500x500.jpg",
+      link: "/cash-desk-counter",
     },
     {
       id: 7,
@@ -60,6 +69,7 @@ const ServicesSection = () => {
         "Leading Manufacturer of 3 Burner Commercial Gas Stove and Stainless Steel Three Burner Bhatti from Muzaffarpur.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2024/5/420701254/MY/UW/ZU/73020702/3-burner-commercial-gas-stove-500x500.png",
+      link: "/commercial-gas-stove",
     },
   ];
 
@@ -102,17 +112,6 @@ const ServicesSection = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 relative">
-      {/* WhatsApp Button */}
-      {/* <div className="fixed top-6 right-6 z-50">
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors duration-200"
-        >
-          <MessageCircle size={24} />
-        </motion.button>
-      </div> */}
-
       {/* Whatsapp Button */}
       <div className="fixed bottom-6 left-0 z-50">
         <button
@@ -199,15 +198,6 @@ const ServicesSection = () => {
 
                 {/* Arrow Button */}
                 <div className="flex justify-start">
-                  {/* <motion.div
-                    whileHover={{ x: 5 }}
-                    className="flex items-center justify-center w-10 h-10 bg-gray-100 group-hover:bg-red-500 rounded-full transition-colors duration-200"
-                  >
-                    <ChevronRight
-                      size={20}
-                      className="text-gray-600 group-hover:text-white transition-colors duration-200"
-                    />
-                  </motion.div> */}
                   <motion.button
                     whileHover={{
                       scale: 1.05,
@@ -215,6 +205,10 @@ const ServicesSection = () => {
                     }}
                     whileTap={{ scale: 0.95 }}
                     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-red-500 to-red-600 text-white font-semibold cursor-pointer rounded-full shadow-md hover:shadow-lg transition-all duration-300 group-hover:shadow-xl"
+                    onClick={() => {
+                      navigate(service.link);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
                   >
                     <span className="mr-2">Read More</span>
                     <ChevronRight

@@ -4,6 +4,7 @@ import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
 import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
 import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
 import CashDeskCounterProducts from "./CashDeskCounterProduct";
+import Gallery18 from "../../../assets/Gallery/Gallery18.jpeg";
 
 const CashDeskCounterPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,7 +46,7 @@ const CashDeskCounterPage = () => {
             </div>
             <ChevronRight className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">
-              Stainless Steel Counter
+              Cash Desk Counter
             </span>
           </nav>
 
@@ -53,7 +54,7 @@ const CashDeskCounterPage = () => {
             className="text-5xl md:text-7xl font-bold mb-6 animate-on-scroll"
             style={{ animationDelay: "0.2s" }}
           >
-            Stainless Steel Counter
+            Cash Desk Counter
           </h1>
         </div>
       </section>
@@ -81,27 +82,27 @@ const CashDeskCounterPage = () => {
               </motion.div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Stainless Steel Counters Built for Business
+                Cash Desk Counters Designed for Efficiency
               </h1>
 
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
                 <span className="block font-semibold text-red-400">
-                  Functional. Durable. Ready to Serve.
+                  Organized. Durable. Built for Smooth Transactions.
                 </span>
               </p>
 
               <p className="text-lg mb-8 leading-relaxed text-gray-600">
-                We offer a reliable and high-performance range of stainless
-                steel counters, designed to meet the demands of modern food
-                service environments. Whether you're setting up a fast food cart
-                or a tea stall counter, our products combine durability,
-                hygiene, and functionality in a compact, professional design.
-                Crafted from premium-grade stainless steel, each unit is built
-                to withstand daily commercial use while ensuring ease of
-                cleaning and maintenance. Ideal for roadside vendors, food
-                courts, small eateries, and mobile food setups, our counters
-                provide an efficient and organized way to serve customers on the
-                go.
+                We offer a premium selection of cash desk counters tailored for
+                restaurants, cafes, and commercial food outlets. Our range
+                includes the Restaurant Cash Counter and Korean Cash Counter
+                Desk, both designed to streamline billing operations while
+                adding a professional touch to your service area. Crafted from
+                high-quality materials, these counters feature ample space for
+                billing equipment, cash drawers, and storage — ensuring an
+                organized and efficient checkout experience. Whether you're
+                managing a high-footfall restaurant or a quick-service food
+                stall, our cash counters are built to handle daily demands with
+                durability and style.
               </p>
 
               <motion.div
@@ -127,8 +128,8 @@ const CashDeskCounterPage = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={HeroImage3}
-                  alt="Stainless Steel Bhatti"
+                  src={Gallery18}
+                  alt="Cash Desk Counter"
                   className="w-full h-96 lg:h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -141,13 +142,17 @@ const CashDeskCounterPage = () => {
       {/* Products Showcase Section */}
       <section className="py-16 lg:py-24 bg-white">
         <div className="container mx-auto px-4">
-          <motion.div {...fadeInUp} className="text-center mb-16">
+          <motion.div {...fadeInUp} className="text-center">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-red-600">Stainless Steel Counter</span>
+              Our <span className="text-red-600">Cash Desk Counter</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Offering you a complete choice of products which include Fast Food
-              Cart and Tea Stall Counter.
+              We offer a high-quality range of Cash Desk Counters, including
+              Restaurant Cash Counters and Korean Cash Counter Desks, designed
+              to enhance billing efficiency and customer service. Built with
+              durable materials and smart design, our counters provide ample
+              workspace, organized storage, and a professional appearance — all
+              backed by effective and timely delivery.
             </p>
           </motion.div>
         </div>

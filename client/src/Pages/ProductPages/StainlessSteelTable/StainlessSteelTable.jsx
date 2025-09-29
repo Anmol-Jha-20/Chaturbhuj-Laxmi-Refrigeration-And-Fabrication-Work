@@ -45,7 +45,7 @@ const StainleesSteelTablePage = () => {
             </div>
             <ChevronRight className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">
-              Stainless Steel Counter
+              Stainless Steel Table
             </span>
           </nav>
 
@@ -53,7 +53,7 @@ const StainleesSteelTablePage = () => {
             className="text-5xl md:text-7xl font-bold mb-6 animate-on-scroll"
             style={{ animationDelay: "0.2s" }}
           >
-            Stainless Steel Counter
+            Stainless Steel Table
           </h1>
         </div>
       </section>
@@ -81,27 +81,28 @@ const StainleesSteelTablePage = () => {
               </motion.div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Stainless Steel Counters Built for Business
+                Stainless Steel Tables Built to Last
               </h1>
 
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
                 <span className="block font-semibold text-red-400">
-                  Functional. Durable. Ready to Serve.
+                  Strong. Versatile. Made for Commercial Kitchens.
                 </span>
               </p>
 
               <p className="text-lg mb-8 leading-relaxed text-gray-600">
-                We offer a reliable and high-performance range of stainless
-                steel counters, designed to meet the demands of modern food
-                service environments. Whether you're setting up a fast food cart
-                or a tea stall counter, our products combine durability,
-                hygiene, and functionality in a compact, professional design.
-                Crafted from premium-grade stainless steel, each unit is built
-                to withstand daily commercial use while ensuring ease of
-                cleaning and maintenance. Ideal for roadside vendors, food
-                courts, small eateries, and mobile food setups, our counters
-                provide an efficient and organized way to serve customers on the
-                go.
+                We are a leading manufacturer of premium stainless steel tables,
+                built for durability, hygiene, and functionality in demanding
+                commercial environments. Our product range includes Stainless
+                Steel Round Tables, Kitchen Working Tables, Dining Tables, and
+                multi-purpose stainless steel tables, each crafted to meet the
+                rigorous needs of restaurants, hotels, catering services, and
+                food courts. Designed for both front- and back-of-house use,
+                these tables offer a sturdy workspace with easy-to-clean
+                surfaces — ideal for food prep, service, and dining. We also
+                offer specialized options like the Chinese Fast Food Cart,
+                combining mobility with reliable performance for street vendors
+                and quick-service setups.
               </p>
 
               <motion.div
@@ -111,8 +112,9 @@ const StainleesSteelTablePage = () => {
                 className="flex flex-col sm:flex-row gap-4"
               >
                 <button
-                  onClick={() => (window.location.href = "tel:918075612353")}
+                  onClick={() => (window.location.href = "tel:+917989198151")}
                   className="bg-red-600 hover:bg-red-700 text-white cursor-pointer px-16 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  aria-label="Call us at +917989198151"
                 >
                   Contact Us
                 </button>
@@ -127,8 +129,8 @@ const StainleesSteelTablePage = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={HeroImage3}
-                  alt="Stainless Steel Bhatti"
+                  src="https://5.imimg.com/data5/SELLER/Default/2024/5/420684153/LX/KU/YT/73020702/stainless-steel-table-500x500.png"
+                  alt="Stainless Steel Table"
                   className="w-full h-96 lg:h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -143,11 +145,12 @@ const StainleesSteelTablePage = () => {
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-red-600">Stainless Steel Counter</span>
+              Our <span className="text-red-600">Stainless Steel Table</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Offering you a complete choice of products which include Fast Food
-              Cart and Tea Stall Counter.
+              Leading Manufacturer of Stainless Steel Round Table, Kitchen
+              Working Table, Stainless Steel Dining Table, Stainless Steel Table
+              and Chinese Fast Food Cart from Muzaffarpur.
             </p>
           </motion.div>
         </div>

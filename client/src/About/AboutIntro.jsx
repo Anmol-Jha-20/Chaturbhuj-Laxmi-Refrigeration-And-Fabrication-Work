@@ -4,9 +4,11 @@ import { X, ArrowRight } from "lucide-react";
 import SliderImage8 from "../assets/SliderImages/SliderImage8.jpeg";
 import SliderImage6 from "../assets/SliderImages/SliderImage6.jpeg";
 import SliderImage3 from "../assets/SliderImages/SliderImage3.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const AboutIntro = () => {
   const [activeCard, setActiveCard] = useState(null);
+  const navigate = useNavigate();
 
   const products = [
     {
@@ -17,6 +19,7 @@ const AboutIntro = () => {
         "Premium quality fabrics with custom patterns and designs for all your creative needs.",
       details:
         "Fabric designing services can be provided by our commercial team. Alteration provide",
+      link: "/display-counter",
     },
     {
       id: 2,
@@ -26,6 +29,7 @@ const AboutIntro = () => {
         "Rigorous testing and quality assurance for every fabric we produce.",
       details:
         "Quality control services can be provided by our commercial team. Testing provide",
+      link: "/stainless-steel-counter",
     },
     {
       id: 3,
@@ -35,6 +39,7 @@ const AboutIntro = () => {
         "State-of-the-art manufacturing process ensuring premium quality output.",
       details:
         "Manufacturing services can be provided by our commercial team. Production provide",
+      link: "/display-counter",
     },
   ];
 
@@ -110,7 +115,10 @@ const AboutIntro = () => {
                     </div>
                     <h3 className="text-2xl font-bold mb-3">{product.title}</h3>
                     <p className="text-gray-300 mb-4">{product.details}</p>
-                    <div className="flex items-center justify-center text-red-500 font-semibold">
+                    <div
+                      onClick={() => navigate(product.link)}
+                      className="flex items-center justify-center text-red-500 font-semibold"
+                    >
                       <span className="mr-2">READ MORE</span>
                       <ArrowRight className="w-4 h-4" />
                     </div>

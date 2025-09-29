@@ -232,6 +232,7 @@ const AboutPage = () => {
                   className="group bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded cursor-pointer transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() => (window.location.href = "tel:+917989198151")}
                 >
                   <span>CONTACT US</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -412,7 +413,11 @@ const AboutPage = () => {
                 various industries.
               </p>
 
-              <button className="group bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center transform hover:scale-105">
+              <button
+                onClick={() => (window.location.href = "tel:+917989198151")}
+                aria-label="Call us at +917989198151"
+                className="group bg-red-500 hover:bg-red-600 cursor-pointer text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center transform hover:scale-105"
+              >
                 CONTACT US
                 <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -486,15 +491,6 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-
-        {/* Scroll to Top Button */}
-        {/* <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-8 right-8 bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-110 z-50"
-          aria-label="Scroll to top"
-        >
-          <ChevronRight className="w-6 h-6 rotate-[-90deg]" />
-        </button> */}
       </section>
 
       <TestimonialsSection />

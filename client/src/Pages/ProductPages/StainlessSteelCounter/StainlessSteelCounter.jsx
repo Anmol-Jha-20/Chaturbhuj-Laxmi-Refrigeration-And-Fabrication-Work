@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
 import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
 import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
+import SteelCounterProducts from "./SteelCounterProduct";
 
 const StainlessSteelCounter = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -145,13 +146,15 @@ const StainlessSteelCounter = () => {
               Our <span className="text-red-600">Stainless Steel Counter</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Offering you a complete choice of products which include Fast Food
-              Cart and Tea Stall Counter.
+              We offer a versatile range of stainless steel counters, including
+              high-quality Fast Food Carts and Tea Stall Counters — designed to
+              meet the needs of mobile vendors, food stalls, and compact
+              commercial kitchens.
             </p>
           </motion.div>
         </div>
 
-        {/* <SteelCounterProducts /> */}
+        <SteelCounterProducts />
       </section>
     </div>
   );

@@ -2,11 +2,11 @@ import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
 import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
-import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
-import CommercialGasStoveProducts from "./CommercialGasStoveProducts.jsx";
-import SteelThreeBurnerBhattiImage from "../../../assets/StainlessSteelBhatti/StainlessSteelThreeBurnerBhatti.jpeg";
+import Gallery18 from "../../../assets/Gallery/Gallery18.jpeg";
+import JuiceCounterProducts from "./JuiceCounterProducts.jsx";
+import JuiceCounterImageThree from "../../../assets/JuiceCounter/JuiceCounterImageThree.jpeg";
 
-const CommercialGasStovePage = () => {
+const JuiceCounterPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const heroRef = useRef(null);
 
@@ -46,7 +46,7 @@ const CommercialGasStovePage = () => {
             </div>
             <ChevronRight className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">
-              Commercial Gas Stove
+              Juice Counter
             </span>
           </nav>
 
@@ -54,7 +54,7 @@ const CommercialGasStovePage = () => {
             className="text-5xl md:text-7xl font-bold mb-6 animate-on-scroll"
             style={{ animationDelay: "0.2s" }}
           >
-            Commercial Gas Stove
+            Juice Counter
           </h1>
         </div>
       </section>
@@ -82,27 +82,26 @@ const CommercialGasStovePage = () => {
               </motion.div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Commercial Gas Stoves Built for Heavy-Duty Cooking
+                Juice Counters Built for Fresh Service
               </h1>
 
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
                 <span className="block font-semibold text-red-400">
-                  Powerful. Reliable. Made for Professional Kitchens.
+                  Clean. Durable. Perfect for Commercial Use.
                 </span>
               </p>
 
               <p className="text-lg mb-8 leading-relaxed text-gray-600">
-                We are a leading manufacturer of commercial gas stoves, offering
-                high-performance solutions designed for busy kitchens and food
-                service environments. Our range includes the 3 Burner Commercial
-                Gas Stove and Stainless Steel Three Burner Bhatti, both
-                engineered for efficient, high-volume cooking. Crafted from
-                durable stainless steel and equipped with powerful burners,
-                these stoves deliver consistent heat distribution, easy
-                maintenance, and long-lasting reliability. Whether you're
-                running a restaurant, catering service, hotel kitchen, or street
-                food setup, our gas stoves are built to handle the demands of
-                daily commercial use.
+                Our Juice Counter is a reliable and hygienic solution, specially
+                designed for serving fresh juices in busy commercial
+                environments. With a spacious work area, sturdy stainless steel
+                construction, and a sleek, professional finish, it’s ideal for
+                juice shops, cafes, food courts, and street food setups. Built
+                to ensure smooth operation and easy maintenance, the counter
+                supports efficient preparation and service while maintaining
+                high standards of cleanliness. Its modern design not only
+                enhances your service area but also leaves a lasting impression
+                on customers.
               </p>
 
               <motion.div
@@ -112,7 +111,7 @@ const CommercialGasStovePage = () => {
                 className="flex flex-col sm:flex-row gap-4"
               >
                 <button
-                  onClick={() => (window.location.href = "tel:918075612353")}
+                  onClick={() => (window.location.href = "tel:+917989198151")}
                   className="bg-red-600 hover:bg-red-700 text-white cursor-pointer px-16 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Contact Us
@@ -128,8 +127,8 @@ const CommercialGasStovePage = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={SteelThreeBurnerBhattiImage}
-                  alt="Stainless Steel Bhatti"
+                  src={JuiceCounterImageThree}
+                  alt="Cash Desk Counter"
                   className="w-full h-96 lg:h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -142,25 +141,24 @@ const CommercialGasStovePage = () => {
       {/* Products Showcase Section */}
       <section className="py-16 lg:py-24 bg-white">
         <div className="container mx-auto px-4">
-          <motion.div {...fadeInUp} className="text-center mb-16">
+          <motion.div {...fadeInUp} className="text-center">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-red-600">Commercial Gas Stove</span>
+              Our <span className="text-red-600">Juice Counter</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We are a leading manufacturer and supplier of high-performance
-              Commercial Gas Stoves, specializing in durable and efficient
-              kitchen solutions for restaurants, hotels, catering businesses,
-              and street food vendors. Our flagship model includes the 3 Burner
-              Commercial Gas Stove, also known as the Stainless Steel Three
-              Burner Bhatti, crafted with precision in Muzaffarpur, India.
+              Serve freshness with style using our high-quality Juice Counter,
+              specially designed for juice shops, cafes, street vendors, and
+              commercial kitchens. Built with durable stainless steel, this
+              counter offers hygiene, functionality, and visual appeal – all in
+              one compact setup.
             </p>
           </motion.div>
         </div>
 
-        <CommercialGasStoveProducts />
+        <JuiceCounterProducts />
       </section>
     </div>
   );
 };
 
-export default CommercialGasStovePage;
+export default JuiceCounterPage;

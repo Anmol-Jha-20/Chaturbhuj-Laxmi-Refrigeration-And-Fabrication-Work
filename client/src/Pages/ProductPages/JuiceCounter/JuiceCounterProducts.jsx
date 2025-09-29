@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import JuiceCounterImageOne from "../../../assets/JuiceCounter/JuiceCounterImageOne.jpeg";
+import JuiceCounterImageTwo from "../../../assets/JuiceCounter/JuiceCounterImageTwo.jpeg";
+import JuiceCounterImageThree from "../../../assets/JuiceCounter/JuiceCounterImageThree.jpeg";
 
-const SteelCounterProducts = () => {
+const JuiceCounterProducts = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeProduct, setActiveProduct] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState({});
@@ -14,15 +17,15 @@ const SteelCounterProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Fast Food Cart",
+      name: "Stainless Steel Juice Counter",
       images: [
-        "https://5.imimg.com/data5/ANDROID/Default/2025/3/498607897/WA/XQ/UB/73020702/product-jpeg-500x500.jpg",
-        "https://5.imimg.com/data5/ANDROID/Default/2025/3/498607897/WA/XQ/UB/73020702/product-jpeg-500x500.jpg",
-        "https://5.imimg.com/data5/ANDROID/Default/2025/3/498607897/WA/XQ/UB/73020702/product-jpeg-500x500.jpg",
-        "https://5.imimg.com/data5/ANDROID/Default/2025/3/498607897/WA/XQ/UB/73020702/product-jpeg-500x500.jpg",
+        "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/ExtraLarge/JuiceCounter-20200120055807.jpg",
+        "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/ExtraLarge/JuiceCounter-20200120055807.jpg",
+        "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/ExtraLarge/JuiceCounter-20200120055807.jpg",
+        "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/ExtraLarge/JuiceCounter-20200120055807.jpg",
       ],
       description:
-        "This robust and stylish Fast Food Cart is crafted for durability and efficiency, making it ideal for street food vendors and mobile food businesses. Built using premium-grade stainless steel, the cart is capable of withstanding daily heavy-duty use, with a load capacity of up to 500 kg.",
+        "A durable and hygienic counter made from premium stainless steel, perfect for preparing and serving fresh juices in commercial setups like juice shops, cafes, and street stalls.",
       features: [
         "2-Color Printing",
         "High Speed Operation",
@@ -34,15 +37,35 @@ const SteelCounterProducts = () => {
     },
     {
       id: 2,
-      name: "Tea Stall Counter",
+      name: "Juice Display Counter",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420623347/WB/VP/NK/73020702/stainless-steel-tea-counter-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420623347/WB/VP/NK/73020702/stainless-steel-tea-counter-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420623347/WB/VP/NK/73020702/stainless-steel-tea-counter-500x500.jpeg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420623347/WB/VP/NK/73020702/stainless-steel-tea-counter-500x500.jpeg",
+        JuiceCounterImageTwo,
+        JuiceCounterImageTwo,
+        JuiceCounterImageTwo,
+        JuiceCounterImageTwo,
       ],
       description:
-        "The Tea Stall Counter is a perfect solution for tea vendors and street food entrepreneurs looking for a compact, durable, and functional setup. Constructed entirely from high-quality stainless steel, this counter is built to withstand daily use in outdoor and semi-outdoor environments.",
+        "A sleek and hygienic counter designed to showcase fresh fruits and juices. Made from stainless steel with a glass top for clear visibility, ideal for juice shops and food stalls.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 3,
+      name: "Juice & Shake Combo Counter",
+      images: [
+        JuiceCounterImageThree,
+        JuiceCounterImageThree,
+        JuiceCounterImageThree,
+        JuiceCounterImageThree,
+      ],
+      description:
+        "A compact and efficient counter designed for serving both juices and shakes. Made with durable stainless steel, it features separate workspaces for blending and serving, ideal for juice bars, cafes, and street vendors.",
       features: [
         "2-Color Configuration",
         "Advanced Automation",
@@ -104,7 +127,7 @@ const SteelCounterProducts = () => {
       {/* SEO Meta Tags */}
 
       {/* Products Grid */}
-      <section className="py-5 px-4">
+      <section className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {products.map((product, index) => (
@@ -212,7 +235,9 @@ const SteelCounterProducts = () => {
                       )} */}
                     </div>
                     <button
-                      onClick={() => (window.location.href = "tel:8051448069")}
+                      onClick={() =>
+                        (window.location.href = "tel:+917989198151")
+                      }
                       className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-700 hover:to-red-800 cursor-pointer text-white px-2 md:px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       Contact Us
@@ -229,4 +254,4 @@ const SteelCounterProducts = () => {
   );
 };
 
-export default SteelCounterProducts;
+export default JuiceCounterProducts;

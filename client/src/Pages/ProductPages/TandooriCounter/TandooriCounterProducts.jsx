@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const FastFoodStallProducts = () => {
+const TandooriCounterProducts = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeProduct, setActiveProduct] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState({});
@@ -14,15 +14,15 @@ const FastFoodStallProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Stainless Steel Gas Bhatti Counter",
+      name: "Tandoori Display Counter",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706642/ZQ/KZ/EJ/73020702/chinese-fast-food-stall-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706642/ZQ/KZ/EJ/73020702/chinese-fast-food-stall-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706642/ZQ/KZ/EJ/73020702/chinese-fast-food-stall-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706642/ZQ/KZ/EJ/73020702/chinese-fast-food-stall-500x500.jpg",
+        "https://www.cookmanequipments.com/uploaded_files/other-display-counter.png",
+        "https://www.cookmanequipments.com/uploaded_files/other-display-counter.png",
+        "https://www.cookmanequipments.com/uploaded_files/other-display-counter.png",
+        "https://www.cookmanequipments.com/uploaded_files/other-display-counter.png",
       ],
       description:
-        "This premium Chinese Fast Food Stall is specially designed for high-efficiency food preparation and professional street vending. Ideal for restaurants, food courts, and mobile setups, it combines durability with sleek aesthetics to enhance your food service experience.",
+        "Our Tandoori Display Counter is designed to showcase and serve freshly prepared tandoori items in a clean and attractive setup. Made from high-quality stainless steel, it features a heat-resistant surface and optional display glass to keep food visible and hygienic. Ideal for live kitchens, restaurants, food courts, and catering setups, this counter combines functionality with presentation to enhance your customer experience.",
       features: [
         "2-Color Printing",
         "High Speed Operation",
@@ -31,6 +31,26 @@ const FastFoodStallProducts = () => {
       ],
       price: "Get Latest Price",
       originalPrice: "₹55,00,000",
+    },
+    {
+      id: 2,
+      name: "Tandoori Bhatti",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2020/12/CS/IB/UU/119525795/ss-tandoori-bhatti-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2020/12/CS/IB/UU/119525795/ss-tandoori-bhatti-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2020/12/CS/IB/UU/119525795/ss-tandoori-bhatti-1000x1000.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2020/12/CS/IB/UU/119525795/ss-tandoori-bhatti-1000x1000.jpg",
+      ],
+      description:
+        "The Tandoori Bhatti is a heavy-duty cooking unit designed for preparing authentic tandoori dishes like naan, roti, kebabs, and tikka. Built with durable stainless steel and high-heat insulation, it is ideal for restaurants, dhabas, food stalls, and catering services. Available in both charcoal and gas variants, it delivers consistent heat and traditional flavor in every serving.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
     },
   ];
 
@@ -84,7 +104,7 @@ const FastFoodStallProducts = () => {
       {/* SEO Meta Tags */}
 
       {/* Products Grid */}
-      <section className="py-20 px-4">
+      <section className="py-5 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {products.map((product, index) => (
@@ -106,11 +126,24 @@ const FastFoodStallProducts = () => {
                       alt={`${product.name} - Image ${
                         (currentImageIndex[product.id] || 0) + 1
                       }`}
-                      className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-96 object-contain transition-transform duration-500 group-hover:scale-105"
                     />
                   </AnimatePresence>
 
-                  <div className="absolute top-4 right-4 flex flex-col gap-2"></div>
+                  <div className="absolute top-4 right-4 flex flex-col gap-2">
+                    {/* <div className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                      Premium
+                    </div>
+                    {product.originalPrice && (
+                      <div className="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                        Save ₹
+                        {(
+                          parseInt(product.originalPrice.replace(/[₹,]/g, "")) -
+                          parseInt(product.price.replace(/[₹,]/g, ""))
+                        ).toLocaleString()}
+                      </div>
+                    )} */}
+                  </div>
                 </div>
 
                 <div className="p-6">
@@ -134,7 +167,7 @@ const FastFoodStallProducts = () => {
                       )} */}
                     </div>
                     <button
-                      onClick={() => (window.location.href = "tel:8051448069")}
+                      onClick={() => (window.location.href = "tel:7989198151")}
                       className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-700 hover:to-red-800 cursor-pointer text-white px-2 md:px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       Contact Us
@@ -151,4 +184,4 @@ const FastFoodStallProducts = () => {
   );
 };
 
-export default FastFoodStallProducts;
+export default TandooriCounterProducts;

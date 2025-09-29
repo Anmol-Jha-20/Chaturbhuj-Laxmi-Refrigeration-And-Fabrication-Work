@@ -14,15 +14,15 @@ const CashDeskCounterProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Stainless Steel Gas Bhatti Counter",
+      name: "Restaurant Cash Counter",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420703327/JT/RP/ZU/73020702/stainless-steel-gas-bhatti-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683902/PX/AW/DX/73020702/restaurant-cash-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683902/PX/AW/DX/73020702/restaurant-cash-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683902/PX/AW/DX/73020702/restaurant-cash-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683902/PX/AW/DX/73020702/restaurant-cash-counter-500x500.jpg",
       ],
       description:
-        "Built for high-performance commercial use, our Stainless Steel Gas Bhatti Counter is designed to deliver reliable heat output and long-lasting durability. Constructed from premium stainless steel, this unit is ideal for busy kitchens, food stalls, catering setups, and restaurants.",
+        "Many restaurants, need a small checkout counter to register customer information and checkout. It is different from the reception counter/bar in a company or restaurant. Its size is very small, and only cash registers or menus can be placed on the countertop.",
       features: [
         "2-Color Printing",
         "High Speed Operation",
@@ -34,55 +34,15 @@ const CashDeskCounterProducts = () => {
     },
     {
       id: 2,
-      name: "Stainless Steel Tandoor Bhatti",
+      name: "Korean Cash Counter Desk",
       images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420622910/QQ/OV/YP/73020702/korean-cash-counter-desk-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420622910/QQ/OV/YP/73020702/korean-cash-counter-desk-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420622910/QQ/OV/YP/73020702/korean-cash-counter-desk-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420622910/QQ/OV/YP/73020702/korean-cash-counter-desk-500x500.jpg",
       ],
       description:
-        "Designed for professional kitchens, restaurants, and catering setups, our Stainless Steel Tandoor Bhatti delivers authentic tandoori cooking with the efficiency of gas operation. It features a standard clay inner tandoor, allowing for traditional flavor while offering modern convenience and durability.",
-      features: [
-        "2-Color Configuration",
-        "Advanced Automation",
-        "Quick Job Changes",
-        "Superior Print Quality",
-      ],
-      price: "Get Latest Price",
-      originalPrice: "₹45,00,000",
-    },
-    {
-      id: 3,
-      name: "Stainless Steel Dosa Gas Bhatti",
-      images: [
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2020/11/UQ/JI/DU/58286588/dosa-gas-bhatti-1000x1000.jpg",
-      ],
-      description:
-        "Engineered for high-performance in commercial kitchens, our Stainless Steel Dosa Gas Bhatti is designed to deliver consistent heat across a wide surface — perfect for making crisp, evenly cooked dosas, uttapams, and other South Indian delicacies. Its heavy-duty stainless steel body ensures long-lasting use and easy cleaning, ideal for restaurants, hotels, and street food vendors.",
-      features: [
-        "2-Color Configuration",
-        "Advanced Automation",
-        "Quick Job Changes",
-        "Superior Print Quality",
-      ],
-      price: "Get Latest Price",
-      originalPrice: "₹45,00,000",
-    },
-    {
-      id: 4,
-      name: "Stainless Steel Tandoor",
-      images: [
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-        "https://5.imimg.com/data5/SELLER/Default/2024/5/420683216/KG/IU/ZT/73020702/stainless-steel-tandoor-bhatti-500x500.jpg",
-      ],
-      description:
-        "Crafted for authentic tandoori cooking in a modern commercial kitchen, our Stainless Steel Tandoor combines the rich cooking tradition of clay with the durability and hygiene of stainless steel. Built to handle high temperatures and heavy daily use, this gas-powered tandoor is perfect for preparing naan, roti, kebabs, and tandoori dishes with consistent results.",
+        "The place in a store where you pay for the things you are buying. A cash count is nothing more (and nothing less) than a count of all cash transactions in a certain period of time. Although both expenses and income are taken into account, the purpose of the cash count is to check that the cash accounted for as income matches the figure that is physically in the till.",
       features: [
         "2-Color Configuration",
         "Advanced Automation",

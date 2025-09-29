@@ -2,8 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, ShoppingBag, HeadphonesIcon } from "lucide-react";
 import HeroImage2 from "../assets/HeroImages/HeroImage2.jpeg";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
+  const navigate = useNavigate();
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -124,6 +127,10 @@ const AboutSection = () => {
                 className="group bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded cursor-pointer transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => {
+                  navigate("/about-us");
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
               >
                 <span>READ MORE</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />

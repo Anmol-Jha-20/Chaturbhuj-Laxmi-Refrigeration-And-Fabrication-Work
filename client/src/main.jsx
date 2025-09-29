@@ -14,6 +14,8 @@ import FastFoodStallPage from "./Pages/ProductPages/FastFoodStall/FastFoodStall.
 import StainleesSteelTablePage from "./Pages/ProductPages/StainlessSteelTable/StainlessSteelTable.jsx";
 import CashDeskCounterPage from "./Pages/ProductPages/CashDeskCounter/CashDeskCounter.jsx";
 import CommercialGasStovePage from "./Pages/ProductPages/CommercialGasStove/CommercialGasStovePage.jsx";
+import JuiceCounterPage from "./Pages/ProductPages/JuiceCounter/JuiceCounter.jsx";
+import TandooriCounter from "./Pages/ProductPages/TandooriCounter/TandooriCounter.jsx";
 
 const router = createBrowserRouter([
   {
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
       {
         path: "/commercial-gas-stove",
         element: <CommercialGasStovePage />,
+      },
+      {
+        path: "/juice-counter",
+        element: <JuiceCounterPage />,
+      },
+      {
+        path: "/tandoori-counter",
+        element: <TandooriCounter />,
       },
     ],
   },

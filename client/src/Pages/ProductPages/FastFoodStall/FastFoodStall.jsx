@@ -4,6 +4,7 @@ import { Phone, Star, Home, ChevronRight, Settings } from "lucide-react";
 import HeroImage5 from "../../../assets/HeroImages/HeroImage5.jpeg";
 import HeroImage3 from "../../../assets/HeroImages/HeroImage3.jpeg";
 import FastFoodStallProducts from "./FastFoodStallProduct.jsx";
+import Gallery17 from "../../../assets/Gallery/Gallery17.jpeg";
 
 const FastFoodStallPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,7 +46,7 @@ const FastFoodStallPage = () => {
             </div>
             <ChevronRight className="w-4 h-4 text-red-400" />
             <span className="text-red-400 text-sm font-medium">
-              Stainless Steel Counter
+              Fast Food Stall
             </span>
           </nav>
 
@@ -53,7 +54,7 @@ const FastFoodStallPage = () => {
             className="text-5xl md:text-7xl font-bold mb-6 animate-on-scroll"
             style={{ animationDelay: "0.2s" }}
           >
-            Stainless Steel Counter
+            Fast Food Stall
           </h1>
         </div>
       </section>
@@ -81,12 +82,12 @@ const FastFoodStallPage = () => {
               </motion.div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Stainless Steel Counters Built for Business
+                Fast Food Stalls Built for Performance
               </h1>
 
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
                 <span className="block font-semibold text-red-400">
-                  Functional. Durable. Ready to Serve.
+                  Compact. Durable. Made for Street Food Success.
                 </span>
               </p>
 
@@ -127,8 +128,8 @@ const FastFoodStallPage = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={HeroImage3}
-                  alt="Stainless Steel Bhatti"
+                  src={Gallery17}
+                  alt="Fast Food Stall"
                   className="w-full h-96 lg:h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -143,16 +144,19 @@ const FastFoodStallPage = () => {
         <div className="container mx-auto px-4">
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-red-600">Stainless Steel Counter</span>
+              Our <span className="text-red-600">Fast Food Stall</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Offering you a complete choice of products which include Fast Food
-              Cart and Tea Stall Counter.
+              We are a leading manufacturer of a wide range of mobile food
+              vending solutions, specializing in high-quality Chinese Fast Food
+              Stalls. Designed for durability, functionality, and ease of use,
+              our fast food stalls are perfect for street vendors, food court
+              setups, and small restaurant extensions.
             </p>
           </motion.div>
         </div>
 
-        {/* <FastFoodStallProducts /> */}
+        <FastFoodStallProducts />
       </section>
     </div>
   );

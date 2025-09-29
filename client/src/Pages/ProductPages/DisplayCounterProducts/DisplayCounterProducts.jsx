@@ -18,6 +18,7 @@ import GalleryImage6 from "../../../assets/Gallery/Gallery6.jpeg";
 import GalleryImage5 from "../../../assets/Gallery/Gallery5.jpeg";
 import SliderImage1 from "../../../assets/SliderImages/SliderImage1.jpeg";
 import SliderImage5 from "../../../assets/SliderImages/SliderImage5.jpeg";
+import ChatCounterImage from "../../../assets/TandooriCounters/ChatCounterImage.jpeg";
 
 const DisplayCounterProducts = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -319,6 +320,106 @@ const DisplayCounterProducts = () => {
       price: "Get Latest Price",
       originalPrice: "₹45,00,000",
     },
+    {
+      id: 17,
+      name: "Chaat Counter",
+      images: [
+        ChatCounterImage,
+        ChatCounterImage,
+        ChatCounterImage,
+        ChatCounterImage,
+      ],
+      description:
+        "Our Chaat Counter is specially designed for street food vendors and stalls, offering a clean, durable, and efficient setup for serving popular chaat items. Made from high-quality stainless steel, it features 2 spacious shelves for organized storage and easy access during peak hours.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 18,
+      name: "Sweet Display Counter",
+      images: [
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342761/NS/IL/PZ/73020702/prod-20241014-1842377147929739193613931-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342761/NS/IL/PZ/73020702/prod-20241014-1842377147929739193613931-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342761/NS/IL/PZ/73020702/prod-20241014-1842377147929739193613931-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342761/NS/IL/PZ/73020702/prod-20241014-1842377147929739193613931-jpg-500x500.jpg",
+      ],
+      description:
+        "Our Sweet Display Counter is elegantly designed to showcase a variety of sweets and desserts in bakeries, sweet shops, and cafes. Crafted with premium glass and a stylish bend-type front, it enhances visibility while maintaining hygiene and presentation standards.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 19,
+      name: "Tikki Chaat Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706107/FW/QH/BU/73020702/tikki-chat-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706107/FW/QH/BU/73020702/tikki-chat-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706107/FW/QH/BU/73020702/tikki-chat-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420706107/FW/QH/BU/73020702/tikki-chat-display-counter-500x500.jpg",
+      ],
+      description:
+        "Our Tikki Chaat Display Counter is designed for efficient preparation and eye-catching display of popular street foods like aloo tikki, chaat, and snacks. Made from high-grade stainless steel, it offers durability, hygiene, and a functional layout for busy food stalls and vendors.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 20,
+      name: "5 Feet Fast Food Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705380/WG/SY/QC/73020702/5-feet-fast-food-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705380/WG/SY/QC/73020702/5-feet-fast-food-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705380/WG/SY/QC/73020702/5-feet-fast-food-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705380/WG/SY/QC/73020702/5-feet-fast-food-display-counter-500x500.jpg",
+      ],
+      description:
+        "Our 5 Feet Fast Food Display Counter is built for functionality, durability, and attractive food presentation. Made with stainless steel and 12 mm thick glass, this counter is ideal for street food stalls, offering ample space with 3 shelves to display a variety of snacks and fast food items in an organized and hygienic manner.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 21,
+      name: "3.5 Feet Stainless Steel Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420704780/YK/QV/VO/73020702/3-5-feet-stainless-steel-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420704780/YK/QV/VO/73020702/3-5-feet-stainless-steel-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420704780/YK/QV/VO/73020702/3-5-feet-stainless-steel-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420704780/YK/QV/VO/73020702/3-5-feet-stainless-steel-display-counter-500x500.jpg",
+      ],
+      description:
+        "Our 3.5 Feet Stainless Steel Display Counter is a compact and efficient solution for showcasing snacks, sweets, or bakery items in shops and retail outlets. Designed with a rectangular shape, it features 3 spacious shelves, a durable glass top workbench, and 5 mm thick glass panels for clear visibility and hygiene.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
   ];
 
   const nextImage = (productId, imagesLength) => {
@@ -479,7 +580,9 @@ const DisplayCounterProducts = () => {
                       )} */}
                     </div>
                     <button
-                      onClick={() => (window.location.href = "tel:8051448069")}
+                      onClick={() =>
+                        (window.location.href = "tel:+917989198151")
+                      }
                       className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-700 hover:to-red-800 cursor-pointer text-white px-2 md:px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       Contact Us
