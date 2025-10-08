@@ -252,7 +252,9 @@ const SteelBhattiProducts = () => {
                       )} */}
                     </div>
                     <button
-                      onClick={() => (window.location.href = "tel:8051448069")}
+                      onClick={() =>
+                        (window.location.href = "tel:+917989198151")
+                      }
                       className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-700 hover:to-red-800 cursor-pointer text-white px-2 md:px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2 group"
                     >
                       Contact Us

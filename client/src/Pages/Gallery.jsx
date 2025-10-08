@@ -21,6 +21,20 @@ import GalleryImage17 from "../assets/Gallery/Gallery17.jpeg";
 import GalleryImage18 from "../assets/Gallery/Gallery18.jpeg";
 import GalleryImage19 from "../assets/Gallery/Gallery19.jpeg";
 import GalleryImage20 from "../assets/Gallery/Gallery20.jpeg";
+import HeroImage4 from "../assets//HeroImages/HeroImage4.jpeg";
+import HeroImage6 from "../assets/HeroImages/HeroImage6.jpeg";
+import SliderImage1 from "../assets/SliderImages/SliderImage1.jpeg";
+import SliderImage6 from "../assets/SliderImages/SliderImage6.jpeg";
+import GalleryImage28 from "../assets/Gallery2/GalleryImage28.jpeg";
+import GalleryImage29 from "../assets/Gallery2/GalleryImage29.jpeg";
+import GalleryImage30 from "../assets/Gallery2/GalleryImage30.jpeg";
+import GalleryImage31 from "../assets/Gallery2/GalleryImage31.jpeg";
+import GalleryImage33 from "../assets/Gallery2/GalleryImage33.jpeg";
+import GalleryImage34 from "../assets/Gallery2/GalleryImage34.jpeg";
+import GalleryImage35 from "../assets/Gallery2/GalleryImage35.jpeg";
+import GalleryImage36 from "../assets/Gallery2/GalleryImage36.jpeg";
+import GalleryImage37 from "../assets/Gallery2/GalleryImage37.jpeg";
+import GalleryImage38 from "../assets/Gallery2/GalleryImage38.jpeg";
 
 function Gallery() {
   const heroRef = useRef(null);
@@ -80,6 +94,20 @@ function Gallery() {
           <img src={GalleryImage18} alt="gallery Image" />
           <img src={GalleryImage19} alt="gallery Image" />
           <img src={GalleryImage20} alt="gallery Image" />
+          <img src={HeroImage4} alt="gallery Image" />
+          <img src={HeroImage6} alt="gallery Image" />
+          <img src={SliderImage1} alt="gallery Image" />
+          <img src={SliderImage6} alt="gallery Image" />
+          <img src={GalleryImage28} alt="gallery Image" />
+          <img src={GalleryImage29} alt="gallery Image" />
+          <img src={GalleryImage30} alt="gallery Image" />
+          <img src={GalleryImage31} alt="gallery Image" />
+          <img src={GalleryImage33} alt="gallery Image" />
+          <img src={GalleryImage34} alt="gallery Image" />
+          <img src={GalleryImage35} alt="gallery Image" />
+          <img src={GalleryImage36} alt="gallery Image" />
+          <img src={GalleryImage37} alt="gallery Image" />
+          <img src={GalleryImage38} alt="gallery Image" />
         </div>
       </div>
     </div>

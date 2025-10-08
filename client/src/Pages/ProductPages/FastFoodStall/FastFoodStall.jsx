@@ -112,7 +112,7 @@ const FastFoodStallPage = () => {
                 className="flex flex-col sm:flex-row gap-4"
               >
                 <button
-                  onClick={() => (window.location.href = "tel:918075612353")}
+                  onClick={() => (window.location.href = "tel:+917989198151")}
                   className="bg-red-600 hover:bg-red-700 text-white cursor-pointer px-16 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Contact Us

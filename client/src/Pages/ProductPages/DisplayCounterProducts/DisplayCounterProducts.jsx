@@ -420,6 +420,86 @@ const DisplayCounterProducts = () => {
       price: "Get Latest Price",
       originalPrice: "₹45,00,000",
     },
+    {
+      id: 22,
+      name: "Korean Curved Glass Sweet Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420702926/MK/BV/HX/73020702/korean-curved-glass-sweet-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420702926/MK/BV/HX/73020702/korean-curved-glass-sweet-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420702926/MK/BV/HX/73020702/korean-curved-glass-sweet-display-counter-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420702926/MK/BV/HX/73020702/korean-curved-glass-sweet-display-counter-500x500.jpg",
+      ],
+      description:
+        "The Korean Curved Glass Sweet Display Counter is a sleek, modern solution designed specifically for sweet shops and bakeries aiming to showcase their delicacies in a hygienic and visually appealing manner. With its elegant curved glass front and durable stainless steel body, this display counter adds a premium touch to any retail environment.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 23,
+      name: "Mixture Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420447233/LH/LF/XM/73020702/117-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420447233/LH/LF/XM/73020702/117-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420447233/LH/LF/XM/73020702/117-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420447233/LH/LF/XM/73020702/117-500x500.jpg",
+      ],
+      description:
+        "The Mixture Display Counter is a practical and durable solution designed for shops and snack outlets to display various dry snacks such as mixtures, namkeens, farsan, and other savory items. Built with a straightforward design and sturdy materials, it combines functionality with ease of use.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 24,
+      name: "Sweet Display Counter",
+      images: [
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342735/AX/GY/KR/73020702/prod-20241014-184237466088951096388888-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342735/AX/GY/KR/73020702/prod-20241014-184237466088951096388888-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342735/AX/GY/KR/73020702/prod-20241014-184237466088951096388888-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2024/10/458342735/AX/GY/KR/73020702/prod-20241014-184237466088951096388888-jpg-500x500.jpg",
+      ],
+      description:
+        "The Sweet Display Counter is a reliable and functional unit designed to effectively showcase a variety of sweets in retail environments. With a rectangular shape and durable metal construction, this counter is ideal for sweet shops, mithai stores, and confectioneries looking for a simple yet efficient display solution.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
+    {
+      id: 25,
+      name: "Samosa Kachori Glass Display Counter",
+      images: [
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705933/DL/CK/BN/73020702/111-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705933/DL/CK/BN/73020702/111-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705933/DL/CK/BN/73020702/111-500x500.jpeg",
+        "https://5.imimg.com/data5/SELLER/Default/2024/5/420705933/DL/CK/BN/73020702/111-500x500.jpeg",
+      ],
+      description:
+        "The Samosa Kachori Glass Display Counter is specifically designed to showcase popular Indian snacks like samosas, kachoris, patties, and other hot items in a hygienic and visually appealing manner. With a curved front design, this counter enhances product visibility while maintaining freshness and cleanliness.",
+      features: [
+        "2-Color Configuration",
+        "Advanced Automation",
+        "Quick Job Changes",
+        "Superior Print Quality",
+      ],
+      price: "Get Latest Price",
+      originalPrice: "₹45,00,000",
+    },
   ];
 
   const nextImage = (productId, imagesLength) => {
